@@ -1,0 +1,231 @@
+2023-04-17T20:24:31.700-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Starting LpwaEfDionisioNoriega1Application using Java 17.0.6 with PID 6424 (D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes started by Jessica in D:\ejercicios spring\LPWA_EF_DionisioNoriega)
+2023-04-17T20:24:31.704-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : No active profile set, falling back to 1 default profile: "default"
+2023-04-17T20:24:31.818-05:00  INFO 6424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-17T20:24:31.820-05:00  INFO 6424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-17T20:24:33.197-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17T20:24:33.546-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 334 ms. Found 1 JPA repository interfaces.
+2023-04-17T20:24:34.970-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-17T20:24:35.007-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T20:24:35.008-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T20:24:35.177-05:00  INFO 6424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-17T20:24:35.178-05:00  INFO 6424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3356 ms
+2023-04-17T20:24:35.615-05:00  INFO 6424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17T20:24:35.771-05:00  INFO 6424 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-17T20:24:36.638-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-17T20:24:37.282-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 94219886-7e98-46b4-89d0-f27f9e0b1faf
+2023-04-17T20:24:37.286-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-17T20:24:37.385-05:00  INFO 6424 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-17T20:24:38.826-05:00  INFO 6424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17T20:24:38.849-05:00  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:24:39.022-05:00  WARN 6424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17T20:24:39.367-05:00  WARN 6424 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-17T20:24:40.103-05:00  INFO 6424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-17T20:24:40.262-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17T20:24:40.280-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Started LpwaEfDionisioNoriega1Application in 9.467 seconds (process running for 11.3)
+2023-04-17T20:25:08.801-05:00  INFO 6424 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-04-17T20:25:08.815-05:00  INFO 6424 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T20:25:08.862-05:00  INFO 6424 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:25:08.868-05:00  INFO 6424 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-17T20:25:08.872-05:00  INFO 6424 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-17T20:25:08.980-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Starting LpwaEfDionisioNoriega1Application using Java 17.0.6 with PID 6424 (D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes started by Jessica in D:\ejercicios spring\LPWA_EF_DionisioNoriega)
+2023-04-17T20:25:08.980-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : No active profile set, falling back to 1 default profile: "default"
+2023-04-17T20:25:09.224-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17T20:25:09.235-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2023-04-17T20:25:09.398-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-17T20:25:09.400-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T20:25:09.400-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T20:25:09.464-05:00  INFO 6424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-17T20:25:09.464-05:00  INFO 6424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 479 ms
+2023-04-17T20:25:09.522-05:00  INFO 6424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17T20:25:09.536-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-04-17T20:25:09.598-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: bb8fcbc3-0409-47f8-9edb-712867b2feb5
+2023-04-17T20:25:09.598-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-04-17T20:25:09.600-05:00  INFO 6424 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-17T20:25:09.671-05:00  INFO 6424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17T20:25:09.672-05:00  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:25:09.726-05:00  WARN 6424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17T20:25:09.839-05:00  WARN 6424 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-17T20:25:09.974-05:00  INFO 6424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-17T20:25:09.997-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17T20:25:10.009-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Started LpwaEfDionisioNoriega1Application in 1.067 seconds (process running for 41.029)
+2023-04-17T20:25:10.018-05:00  INFO 6424 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-17T20:25:44.641-05:00  INFO 6424 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-04-17T20:25:44.690-05:00  INFO 6424 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T20:25:44.697-05:00  INFO 6424 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:25:44.698-05:00  INFO 6424 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-04-17T20:25:44.701-05:00  INFO 6424 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-04-17T20:25:44.821-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Starting LpwaEfDionisioNoriega1Application using Java 17.0.6 with PID 6424 (D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes started by Jessica in D:\ejercicios spring\LPWA_EF_DionisioNoriega)
+2023-04-17T20:25:44.821-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : No active profile set, falling back to 1 default profile: "default"
+2023-04-17T20:25:45.079-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17T20:25:45.090-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2023-04-17T20:25:45.232-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-17T20:25:45.233-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T20:25:45.234-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T20:25:45.279-05:00  INFO 6424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-17T20:25:45.280-05:00  INFO 6424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 455 ms
+2023-04-17T20:25:45.331-05:00  INFO 6424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17T20:25:45.342-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-04-17T20:25:45.372-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection ConnectionID:21 ClientConnectionId: f3fe14bd-6c24-49c8-baac-e6659b34b8e1
+2023-04-17T20:25:45.379-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-04-17T20:25:45.380-05:00  INFO 6424 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-17T20:25:45.493-05:00  INFO 6424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17T20:25:45.494-05:00  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:25:45.544-05:00  WARN 6424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17T20:25:45.621-05:00  WARN 6424 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-17T20:25:45.779-05:00  INFO 6424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-17T20:25:45.800-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17T20:25:45.823-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Started LpwaEfDionisioNoriega1Application in 1.05 seconds (process running for 76.843)
+2023-04-17T20:25:45.826-05:00  INFO 6424 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-17T20:26:27.485-05:00  INFO 6424 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-17T20:26:27.503-05:00  INFO 6424 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T20:26:27.509-05:00  INFO 6424 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:26:27.510-05:00  INFO 6424 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-04-17T20:26:27.514-05:00  INFO 6424 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-04-17T20:26:27.622-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Starting LpwaEfDionisioNoriega1Application using Java 17.0.6 with PID 6424 (D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes started by Jessica in D:\ejercicios spring\LPWA_EF_DionisioNoriega)
+2023-04-17T20:26:27.623-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : No active profile set, falling back to 1 default profile: "default"
+2023-04-17T20:26:27.829-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17T20:26:27.845-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-04-17T20:26:27.981-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-17T20:26:27.982-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T20:26:27.982-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T20:26:28.028-05:00  INFO 6424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-17T20:26:28.029-05:00  INFO 6424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 401 ms
+2023-04-17T20:26:28.074-05:00  INFO 6424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17T20:26:28.089-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-04-17T20:26:28.119-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection ConnectionID:31 ClientConnectionId: b0aade2b-7123-444e-83a5-9c60a2573c06
+2023-04-17T20:26:28.119-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-04-17T20:26:28.120-05:00  INFO 6424 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-17T20:26:28.162-05:00  INFO 6424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17T20:26:28.162-05:00  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:26:28.204-05:00  WARN 6424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17T20:26:28.279-05:00  WARN 6424 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-17T20:26:28.387-05:00  INFO 6424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-17T20:26:28.406-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17T20:26:28.417-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Started LpwaEfDionisioNoriega1Application in 0.835 seconds (process running for 119.437)
+2023-04-17T20:26:28.422-05:00  INFO 6424 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-17T20:27:12.711-05:00  INFO 6424 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-17T20:27:12.720-05:00  INFO 6424 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T20:27:12.726-05:00  INFO 6424 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:27:12.726-05:00  INFO 6424 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-04-17T20:27:12.730-05:00  INFO 6424 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-04-17T20:27:12.823-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Starting LpwaEfDionisioNoriega1Application using Java 17.0.6 with PID 6424 (D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes started by Jessica in D:\ejercicios spring\LPWA_EF_DionisioNoriega)
+2023-04-17T20:27:12.824-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : No active profile set, falling back to 1 default profile: "default"
+2023-04-17T20:27:13.046-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17T20:27:13.056-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2023-04-17T20:27:13.165-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-17T20:27:13.166-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T20:27:13.166-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T20:27:13.201-05:00  INFO 6424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-17T20:27:13.202-05:00  INFO 6424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 376 ms
+2023-04-17T20:27:13.245-05:00  INFO 6424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17T20:27:13.254-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-04-17T20:27:13.285-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection ConnectionID:41 ClientConnectionId: fcb25d22-506b-4cee-a9d0-8977d6b8865e
+2023-04-17T20:27:13.285-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-04-17T20:27:13.293-05:00  INFO 6424 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-17T20:27:13.333-05:00  INFO 6424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17T20:27:13.333-05:00  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:27:13.425-05:00  WARN 6424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17T20:27:13.542-05:00  WARN 6424 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-17T20:27:13.684-05:00  INFO 6424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-17T20:27:13.718-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17T20:27:13.740-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Started LpwaEfDionisioNoriega1Application in 0.95 seconds (process running for 164.759)
+2023-04-17T20:27:13.745-05:00  INFO 6424 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-17T20:27:18.198-05:00  INFO 6424 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-17T20:27:18.209-05:00  INFO 6424 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T20:27:18.213-05:00  INFO 6424 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:27:18.214-05:00  INFO 6424 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-04-17T20:27:18.217-05:00  INFO 6424 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-04-17T20:27:18.324-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Starting LpwaEfDionisioNoriega1Application using Java 17.0.6 with PID 6424 (D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes started by Jessica in D:\ejercicios spring\LPWA_EF_DionisioNoriega)
+2023-04-17T20:27:18.325-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : No active profile set, falling back to 1 default profile: "default"
+2023-04-17T20:27:18.576-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17T20:27:18.586-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2023-04-17T20:27:18.708-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-17T20:27:18.708-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T20:27:18.708-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T20:27:18.744-05:00  INFO 6424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-17T20:27:18.745-05:00  INFO 6424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 417 ms
+2023-04-17T20:27:18.792-05:00  INFO 6424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17T20:27:18.800-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-04-17T20:27:18.825-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection ConnectionID:51 ClientConnectionId: c0c6e64e-b75e-4991-a7fd-dae0c6d86210
+2023-04-17T20:27:18.825-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-04-17T20:27:18.826-05:00  INFO 6424 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-17T20:27:18.907-05:00  INFO 6424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17T20:27:18.912-05:00  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:27:18.979-05:00  WARN 6424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17T20:27:19.063-05:00  WARN 6424 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-17T20:27:19.172-05:00  INFO 6424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-17T20:27:19.192-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17T20:27:19.206-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Started LpwaEfDionisioNoriega1Application in 0.923 seconds (process running for 170.226)
+2023-04-17T20:27:19.209-05:00  INFO 6424 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-17T20:29:00.665-05:00  INFO 6424 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-17T20:29:00.681-05:00  INFO 6424 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T20:29:00.690-05:00  INFO 6424 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:29:00.692-05:00  INFO 6424 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-04-17T20:29:00.698-05:00  INFO 6424 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-04-17T20:29:00.823-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : Starting LpwaEfDionisioNoriega1Application using Java 17.0.6 with PID 6424 (D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes started by Jessica in D:\ejercicios spring\LPWA_EF_DionisioNoriega)
+2023-04-17T20:29:00.824-05:00  INFO 6424 --- [restartedMain] o.f.LpwaEfDionisioNoriega1Application    : No active profile set, falling back to 1 default profile: "default"
+2023-04-17T20:29:01.253-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17T20:29:01.265-05:00  INFO 6424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2023-04-17T20:29:01.383-05:00  INFO 6424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-17T20:29:01.384-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T20:29:01.384-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T20:29:01.446-05:00  INFO 6424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-17T20:29:01.446-05:00  INFO 6424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 615 ms
+2023-04-17T20:29:01.515-05:00  INFO 6424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17T20:29:01.527-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-04-17T20:29:01.556-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection ConnectionID:61 ClientConnectionId: 47faa0a4-72cd-4dde-927e-005dd47a2719
+2023-04-17T20:29:01.556-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-04-17T20:29:01.556-05:00  INFO 6424 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-17T20:29:01.601-05:00  INFO 6424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17T20:29:01.601-05:00  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:29:01.618-05:00  WARN 6424 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resumenServiceImp' defined in file [D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes\onpe\final2\services\ResumenServiceImp.class]: Failed to instantiate [onpe.final2.services.ResumenServiceImp]: Constructor threw exception
+2023-04-17T20:29:01.618-05:00  INFO 6424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:29:01.618-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-04-17T20:29:01.620-05:00  INFO 6424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2023-04-17T20:29:01.620-05:00  INFO 6424 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T20:29:01.633-05:00  INFO 6424 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-17T20:29:01.683-05:00 ERROR 6424 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'resumenServiceImp' defined in file [D:\ejercicios spring\LPWA_EF_DionisioNoriega\target\classes\onpe\final2\services\ResumenServiceImp.class]: Failed to instantiate [onpe.final2.services.ResumenServiceImp]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.7.jar:6.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.7.jar:6.0.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.5.jar:3.0.5]
+	at onpe.final2.LpwaEfDionisioNoriega1Application.main(LpwaEfDionisioNoriega1Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.5.jar:3.0.5]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [onpe.final2.services.ResumenServiceImp]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-6.0.7.jar:6.0.7]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token ")", { expected after this token
+
+	at onpe.final2.services.ResumenServiceImp.<init>(ResumenServiceImp.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-6.0.7.jar:6.0.7]
+	... 24 common frames omitted
+
