@@ -8,13 +8,13 @@ public class Resumen {
 	@Id
 	
 	private int Numerop1;
-	private double TotalP1;
+	private String TotalP1;
 	private int NumeroP2;
-	private double TotalP2;
+	private String TotalP2;
 	private int NumeroAsistentes;
-	private double TotalAsistentes;
+	private String TotalAsistentes;
 	private int NumeroAusentes;
-	private double TotalAusentes;
+	private String TotalAusentes;
 	private int ElectoresHabiles;
 	public int getNumerop1() {
 		return Numerop1;
@@ -22,10 +22,10 @@ public class Resumen {
 	public void setNumerop1(int numerop1) {
 		Numerop1 = numerop1;
 	}
-	public double getTotalP1() {
+	public String getTotalP1() {
 		return TotalP1;
 	}
-	public void setTotalP1(double totalP1) {
+	public void setTotalP1(String totalP1) {
 		TotalP1 = totalP1;
 	}
 	public int getNumeroP2() {
@@ -34,10 +34,10 @@ public class Resumen {
 	public void setNumeroP2(int numeroP2) {
 		NumeroP2 = numeroP2;
 	}
-	public double getTotalP2() {
+	public String getTotalP2() {
 		return TotalP2;
 	}
-	public void setTotalP2(double totalP2) {
+	public void setTotalP2(String totalP2) {
 		TotalP2 = totalP2;
 	}
 	public int getNumeroAsistentes() {
@@ -46,10 +46,10 @@ public class Resumen {
 	public void setNumeroAsistentes(int numeroAsistentes) {
 		NumeroAsistentes = numeroAsistentes;
 	}
-	public double getTotalAsistentes() {
+	public String getTotalAsistentes() {
 		return TotalAsistentes;
 	}
-	public void setTotalAsistentes(double totalAsistentes) {
+	public void setTotalAsistentes(String totalAsistentes) {
 		TotalAsistentes = totalAsistentes;
 	}
 	public int getNumeroAusentes() {
@@ -58,10 +58,10 @@ public class Resumen {
 	public void setNumeroAusentes(int numeroAusentes) {
 		NumeroAusentes = numeroAusentes;
 	}
-	public double getTotalAusentes() {
+	public String getTotalAusentes() {
 		return TotalAusentes;
 	}
-	public void setTotalAusentes(double totalAusentes) {
+	public void setTotalAusentes(String totalAusentes) {
 		TotalAusentes = totalAusentes;
 	}
 	public int getElectoresHabiles() {
